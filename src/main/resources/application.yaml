@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ichan-springdatajpajsonb
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  postgresql:
+    datasource:
+      driver-class-name: ${SPRING_POSTGRESQL_DRIVER}
+      url: ${SPRING_POSTGRESQL_URL}
+      username: ${SPRING_POSTGRESQL_USERNAME}
+      password: ${SPRING_POSTGRESQL_PASSWORD}
